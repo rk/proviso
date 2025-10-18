@@ -1,0 +1,24 @@
+{
+    "name": "rk/proviso",
+    "description": "Proviso is a tiny expression language project, usable by devs and clients, to create dynamic conditions.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RK\\Proviso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rk",
+            "email": "robert@3fishonawire.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
